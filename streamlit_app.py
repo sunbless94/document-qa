@@ -16,6 +16,7 @@ if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 else:
 
+    # Sun
     # Create an OpenAI client.
     client = OpenAI(api_key=openai_api_key)
 
